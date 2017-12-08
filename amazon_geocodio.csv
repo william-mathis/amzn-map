@@ -1,0 +1,70 @@
+Business Unit,Name,Open,F=Fulfillment,Address,City,State,Country,Zip,SqFt,Month,Year,Latitude,Longitude,Accuracy Score,Accuracy Type,Number,Street,City,State,County,Zip,Country
+"Amazon.com.azdc, LLC","PHX7/PHX8",Y,F,800 N. 75th Ave,Phoenix,Arizona,USA,85043-3101,"1,260,000",September,2011,33.457008,-112.225361,0.7,rooftop,800,N 75th Ave,Phoenix,AZ,Maricopa County,85043,US
+"Amazon.com.azdc, Inc.","PHX6/TFC1",Y,F,4750 & 5050 West Mohave Street,Phoenix,Arizona,USA,85043-4428,"1,207,000",October,2010,33.431905,-112.196998,0.33,place,,,Phoenix,AZ,Maricopa County,85043,US
+"Amazon.com.azdc, Inc.",PHX3,Y,F,6835 West Buckeye Road,Phoenix,Arizona,USA,85043-4428,"1,009,351",September,2007,33.433218,-112.206616,1,rooftop,6835,W Buckeye Rd,Phoenix,AZ,Maricopa County,85043,US
+Golden State FC LLC,ONT6,Y,F,24208 San Michelle Rd,Moreno Valley,California,USA,92551-9561 ,"1,250,000",August,2014,33.870233,-117.226123,0.8,street_center,,San Michele Rd,Moreno Valley,CA,Riverside County,92551,US
+Golden State FC LLC,"OAK4OAK6OAK7",Y,F,1555 N. Chrisman Rd.,Tracy,California,USA,95304-9370,"1,200,000",October,2013,37.705141,-121.398082,0.8,street_center,,S Chrisman Rd,Banta,CA,San Joaquin County,95304,US
+Golden State FC LLC,"SNA7/SNA8",Y,F,"555 East Orange Road, Gateway South Building 3",San Bernardino,California,USA,92408-2453,"1,102,639",March,2016,34.120541,-117.27432,1,range_interpolation,555,E Orange St,San Bernardino,CA,San Bernardino County,92410,US
+Golden State FC LLC,"SNA6/SNA9",Y,F,5250 Goodman Way,Eastvale,California,USA,91752-5088,"1,033,192",October,2016,33.932644,-117.442459,0.8,street_center,,Goodman St,Riverside,CA,Riverside County,92503,US
+Golden State FC LLC,SJC7,Y,F,188 Mountain House Parkway,Tracy,California,USA,95377-8906 ,"1,001,380",October,2016,37.767176,-121.531719,0.8,street_center,,Mountain House Pkwy,Tracy,CA,San Joaquin County,95377,US
+Golden State FC LLC,,N,F,"Goodman Commerce Center, Antu-Galleano Ranch Road Exit on the I-15",Eastvale,California,USA,91752,"1,000,000",,2018,33.932644,-117.442459,1,street_center,,Goodman St,Riverside,CA,Riverside County,92503,US
+Golden State FC LLC,OAK3,Y,F,255 Park Center Drive,Patterson,California,USA,95363-8876,"1,000,000",October,2013,37.306326,-121.034472,0.8,street_center,,Park Cir,Newman,CA,Stanislaus County,95360,US
+Golden State FC LLC,"ONT2/ONT3",Y,F,"1910 E. Central Ave., Building 3",San Bernardino,California,USA,92408-0123,"951,660",October,2012,34.088182,-117.246006,1,rooftop,1910,E Central Ave,San Bernardino,CA,San Bernardino County,92408,US
+Golden State FC LLC,SNA4,Y,F,2496 W Walnut Ave.,Rialto,California,USA,92376-3009,"882,200",November,2015,34.128822,-117.360069,0.8,street_center,,E Walnut Ave,Rialto,CA,San Bernardino County,92376,US
+Golden State FC LLC,SMF1,N,F,4900 W Elkhorn Blvd,Sacramento,California,USA,95835-9505,"855,000",Q3,2017,38.685661,-121.541789,0.8,street_center,,W Elkhorn Blvd,Sacramento,CA,Sacramento County,95835,US
+Golden State FC LLC,,N,F,South Orange Avenue near Central Avenue,Fresno,California,USA,,"855,000",July,2018,36.701445,-119.763699,1,street_center,,S Orange Ave,Fresno,CA,Fresno County,93725,US
+Golden State FC LLC,DEN2,N,F,240006 E. 19th Avenue,Aurora,Colorado,USA,80019,"1,000,000",December ,2017,39.745752,-104.861105,0.8,street_center,,E 19th Ave,Aurora,CO,Adams County,80010,US
+Golden State FC LLC,DEN1,N,F,Northeast corner of Interstate 25 and East 144th Avenue,Thornton,Colorado,USA,,"855,000",August ,2018,39.868041,-104.971924,0.9,place,,,Thornton,CO,Adams County,80229,US
+"Amazon.com.dedc, Inc.",BDL1,Y,F,801 Day Hill Road,Windsor,Connecticut,USA,6095,"1,017,517",June,2015,41.873602,-72.707537,1,rooftop,801,Day Hill Rd,Windsor,CT,Hartford County,6095,US
+Amazon.com.kydc LLC,BDL2,N,F,409 Washington Ave,North Haven,Connecticut,USA,6473,"855,000",,2018,41.413797,-72.848531,1,rooftop,409,Washington Ave,North Haven,CT,New Haven County,6473,US
+"Amazon.com.dedc, Inc.",TPA1,Y,F,3350 Laurel Ridge Ave,Ruskin,Florida,USA,33570-5526,"1,017,550",Q4,2014,27.726978,-82.387839,1,rooftop,3350,Laurel Ridge Ave,Ruskin,FL,Hillsborough County,33570,US
+"Amazon.com.dedc, Inc.",JAX3,N,F,13333 103rd St. ,Jacksonville,Florida,USA,32221-8686,"1,016,041",Q4,2017,30.247654,-81.865532,1,rooftop,13333,103rd St,Jacksonville,FL,Duval County,32221,US
+"Amazon.com.dedc, Inc.",TPA2,Y,F,1760 County Line Rd. ,Lakeland,Florida,USA,33811-1808,"1,000,000",August,2014,28.020315,-82.053122,1,rooftop,1760,County Line Rd,Lakeland,FL,Polk County,33811,US
+"Amazon.com.dedc, Inc.",JAX2,N,F,12900 Pecan Park Road,Jacksonville,Florida,USA,32218-2432,"855,000",Q4,2017,30.466415,-81.677518,1,rooftop,12900,Pecan Park Rd,Jacksonville,FL,Duval County,32218,US
+"Amazon.com.dedc, Inc.",MIA1,N,F,"The Carrie Meek International Business Park, Curtiss Street & NW 42nd Ave ",Opa-locka,Florida,USA,33054,"855,000",Q4,2017,25.92065,-80.236993,0.8,place,,,Opa Locka,FL,Miami-Dade County,33054,US
+"Amazon.com.dedc, Inc.",MCO1,N,F,Boggy Creek Road,Orlando,Florida,USA,32824,"855,000",Q4,2018,28.4123,-81.343477,1,street_center,,Boggy Creek Rd,Orlando,FL,Orange County,32824,US
+"Amazon.com.nvdc, Inc.",,N,F,Route 59,Aurora,Illinois,USA,60563,"1,000,000",,2018,41.782929,-88.205882,1,street_center,,State Rte 59,Naperville,IL,DuPage County,60563,US
+"Amazon.com.nvdc, Inc.",MDW7,N,F,6521 W. Monee Manhattan Road,Monee,Illinois,USA,60449-9668,"856,605",October,2017,41.426686,-87.771217,1,range_interpolation,6521,W Monee Manhattan Rd,Monee,IL,Will County,60449,US
+Amazon.com.indc LLC,SDF8,Y,F,900 Patrol Road,Jeffersonville,Indiana,USA,47130-7761,"1,200,000",October,2012,38.333402,-85.697211,0.33,place,,,Jeffersonville,IN,Clark County,47130,US
+"Amazon.com.indc, LLC",IND1,Y,F,4255 Anson Blvd ,Whitestown,Indiana,USA,46075-4412,"1,000,000",August,2008,40.022608,-86.346179,0.33,place,,,Whitestown,IN,Boone County,46075,US
+Amazon.com.indc LLC,"IND2/IND3",Y,F,715 & 717 Airtech Parkway,Plainfield,Indiana,USA,46168,"947,333",October,2008,39.70421,-86.39944,0.33,place,,,Plainfield,IN,Hendricks County,46168,US
+"Amazon.com.indc, LLC ",IND5,Y,F,800 South Perry Road,Plainfield,Indiana,USA,46168-7937,"925,800",August,2011,39.694926,-86.35583,0.9,range_interpolation,800,Perry Rd,Plainfield,IN,Hendricks County,46168,US
+"Amazon.com.indc, LLC ",IND4,Y,F,710 Soth Girls School Road,Indianapolis,Indiana,USA,46231-1132,"902,852",June,2011,39.703844,-86.30294,0.33,place,,,Indianapolis,IN,Marion County,46231,US
+Amazon.com.indc LLC,MKC6,N,F,6925 Riverview Ave.,Kansas City,Kansas,USA,66102-3047,"856,000",July,2017,39.102134,-94.739708,1,range_interpolation,6925,Riverview Ave,Kansas City,KS,Wyandotte County,66102,US
+"Amazon.com.dedc, Inc.",BWI3,N,F,1 Principio Parkway ,Perryville,Maryland,USA,21093,"1,148,890",Spring,2017,39.433206,-76.654593,0.22,place,,,Lutherville-Timonium,MD,Baltimore County,21093,US
+"Amazon.com.dedc, Inc.",BWI2,Y,F,2010 Broening Highway,Baltimore,Maryland,USA,21224-6027,"1,017,550",March,2015,39.267846,-76.548828,0.8,rooftop,2010,Broening Hwy,Baltimore,MD,Baltimore city,21224,US
+"Amazon.com.dedc, Inc.",BOS7,Y,F,1180 Innovation Way,Fall River,Massachusetts,USA,02722-4766,"1,000,000",October,2016,41.761721,-71.099637,1,rooftop,1180,Innovation Way,Fall River,MA,Bristol County,2720,US
+"Amazon.com.dedc, Inc.",DTW1,N,F,39000 Amrhein,Livonia,Michegan,USA,48150,"1,009,000",October,2017,42.374408,-83.428342,1,range_interpolation,39000,Amrhein Rd,Livonia,MI,Wayne County,48150,US
+"Amazon.com.dedc, Inc.",EWR4,Y,F,50 New Canton Way,Robbinsville,New Jersey,USA,08691-2350,"1,200,000",June,2014,40.19533,-74.564724,1,rooftop,50,New Canton Way,Trenton,NJ,Mercer County,8691,US
+"Amazon.com.dedc, Inc.","LGA6/EWR8/EWR9",Y,F,"8003 Industrial Ave, Building A",Carteret,New Jersey,USA,07008-3529,"1,064,515",September,2016,40.596692,-74.226742,1,rooftop,8003,Industrial Ave,Carteret,NJ,Middlesex County,7008,US
+"Amazon.com.dedc, Inc.",,N,F,Harrisonville Road,Logan Township,New Jersey,USA,8085,"1,000,000",Q2,2017,39.714499,-75.305238,1,street_center,,Co Rd 668,Swedesboro,NJ,Gloucester County,8085,US
+"Amazon.com.dedc, Inc.",,N,F,Hightstown-Cranbury Station Road,Cranbury Township,New Jersey,USA,8512,"930,000",Q2,2017,40.301592,-74.520645,1,street_center,,Old Cranbury Rd,Cranbury,NJ,Middlesex County,8512,US
+"Amazon.com.dedc, Inc.",LGA9,N,F,2170 State Route 27,Edison,New Jersey,USA,08817-3332,"923,000",Q2,2017,40.529366,-74.382806,1,range_interpolation,2170,State Rte 27,Edison,NJ,Middlesex County,8817,US
+"Amazon.com.dedc, Inc.",,N,F,656 Gulf Ave,Staten Island,New York,USA,10314,"975,000",Q3,2018,40.614497,-74.179913,1,range_interpolation,656,Gulf Ave,Staten Island,NY,Richmond County,10314,US
+"Amazon.com.dedc, Inc.",CMH2,Y,F,6050 Gateway Court,Obetz,Ohio,USA,43125,"1,000,000",December ,2016,40.047485,-83.087916,0.8,street_center,,Gateway Dr,Columbus,OH,Franklin County,43220,US
+"Amazon.com.dedc, Inc.",CMH1,Y,F,11903 National Rd SW,Etna,Ohio,USA,43062-7793,"855,000",September,2016,39.956792,-82.709619,1,range_interpolation,11903,National Rd SW,Pataskala,OH,Licking County,43062,US
+"Amazon.com.dedc, Inc.",PDX1,N,F,"NW Swigert Way, Troutdale Reynolds Industrial Park",Troutdale,Oregon,USA,97060,"855,000",July,2018,45.525007,-122.390049,1,place,,,Troutdale,OR,Multnomah County,97060,US
+"Amazon.com.dedc, LLC","AVP2/AVP3",Y,F,298 1st Avenue,Gouldsboro,Pennsylvania,USA,18424-9464,"1,250,000",November,2010,41.274588,-75.500069,1,rooftop,298,1st Ave,Gouldsboro,PA,Lackawanna County,18424,US
+"Amazon.com.dedc, Inc.",PHL6,Y,F,675 Allen Rd. ,Carlisle,Pennsylvania,USA,17015-7788 ,"1,206,500",August,2010,40.174042,-77.234258,1,range_interpolation,675,Allen Rd,Carlisle,PA,Cumberland County,17013,US
+"Amazon.com.dedc, Inc.",ABE4,Y,F,1610 Van Buren Road,Easton,Pennsylvania,USA,18045-7807,"1,106,442",November,2016,40.725801,-75.275461,0.8,street_center,,Van Buren Rd,Easton,PA,Northampton County,18045,US
+"Amazon.com dedc, LLC ",CAE1,Y,F,4400 12 Street Extension,West Columbia (Cayce),South Carolina,USA,29172-3300,"1,250,000",October,2011,33.979633,-81.069276,0.8,street_center,,12th St,Cayce,SC,Lexington County,29033,US
+"Amazon.com.dedc, Inc.",GSP1,Y,F,402 John Dodd Rd,Spartanburg,South Carolina,USA,29303-6312,"1,016,110",September,2012,35.009142,-82.028872,1,range_interpolation,402,John Dodd Rd,Spartanburg,SC,Spartanburg County,29303,US
+"Amazon.com.dedc, Inc.",BNA2,Y,F,500 Duke Dr,Lebanon,Tennessee,USA,37087-8123,"1,200,000",February,2013,36.267266,-86.291167,0.33,place,,,Lebanon,TN,Wilson County,37087,US
+"Amazon.com dedc, LLC ",CHA2,Y,F,225 Infinity Dr NW,Charleston,Tennessee,USA,37310-1400,"1,200,000",September,2011,35.224608,-84.717221,0.33,place,,,Charleston,TN,Bradley County,37310,US
+"Amazon.com dedc, LLC ",CHA1,Y,F,7200 Discovery Drive,Chattanooga,Tennessee,USA,37416-1749 ,"1,020,000",September,2011,35.068587,-85.142778,1,rooftop,7200,Discovery Dr,Chattanooga,TN,Hamilton County,37416,US
+"Amazon.com.dedc, Inc.",BNA3,Y,F,2020 Joe B Jackson Pkwy,Murfreesboro,Tennessee,USA,37127-7792,"1,000,000",September,2012,35.778913,-86.364941,1,rooftop,2020,Joe B Jackson Pkwy,Murfreesboro,TN,Rutherford County,37127,US
+Amazon.com.kydc LLC,SAT1,Y,F,6000 Enterprise Avenue,Schertz,Texas,USA,78154-1461,"1,260,000",Fall,2013,29.593247,-98.290351,0.8,street_center,,Enterprise Ave,Schertz,TX,Guadalupe County,78154,US
+Amazon.com.kydc LLC,DFW7,Y,F,700 Westport Parkway,(Haslet) Fort Worth,Texas,USA,76177-4513,"1,100,000",October,2013,32.972175,-97.312385,0.8,street_center,,Westport Pkwy,Fort Worth,TX,Tarrant County,76177,US
+Amazon.com.kydc LLC,DFW6,Y,F,940 W. Bethel Road  ,Coppell,Texas,USA,75019-4424,"1,000,000",October,2013,32.955127,-97.022243,1,range_interpolation,940,W Bethel Rd,Coppell,TX,Dallas County,75019,US
+Amazon.com.kydc LLC,FTW3/FTW4,Y,F,15201 Heritage Parkway,Fort Worth,Texas,USA,76177-2517,"1,000,000",,2016,32.990381,-97.305428,0.8,street_center,,Heritage Pkwy,Fort Worth,TX,Denton County,76177,US
+Amazon.com.kydc LLC,HOU3,N,F,Woods Road and Interstate 10,Katy,Texas,USA,77423,"1,000,000",,2018,29.752763,-95.920591,1,street_center,,Woods Rd,Brookshire,TX,Waller County,77423,US
+Amazon.com.kydc LLC,FTW2,Y,F,2701 W. Bethel Road,Coppell (Tarrant),Texas,USA,75261-4015 ,"1,000,000",Q4,2016,32.954393,-96.997113,0.8,street_center,,W Bethel Rd,Coppell,TX,Dallas County,75019,US
+Amazon.com.kydc LLC,,N,F,980 Bethel Road,Coppell,Texas,USA,75019,"1,000,000",,2017,32.955123,-97.022441,1,range_interpolation,980,W Bethel Rd,Coppell,TX,Dallas County,75019,US
+Amazon.com.kydc LLC,SAT2,Y,F,1401 East McCarty Lane,San Marcos,Texas,USA,78666-8969,"855,000",September,2016,29.857833,-97.993268,0.8,street_center,,Co Rd 233,San Marcos,TX,Hays County,78666,US
+Amazon.com.kydc LLC,HOU2,N,F,10550 Ella Street,Houston,Texas,USA,77038-2324,"855,000",Q4,2017,29.907799,-95.431112,0.8,street_center,,Ella Blvd,Houston,TX,Harris County,77038,US
+Amazon.com.kydc LLC,SLC1,N,F,,Salt Lake City,Utah,USA,,"855,000",,2018,40.756095,-111.900719,1,place,,,Salt Lake City,UT,Salt Lake County,84101,US
+"Amazon.com.dedc, Inc.",RIC2,Y,F,1901 Meadowville Technology Parkway,Chester,Virginia,USA,23836-2841,"1,200,000",October,2012,37.351112,-77.326859,1,rooftop,1901,Meadowville Technology Pkwy,Chester,VA,Chesterfield County,23836,US
+Amazon.com.kydc LLC,RIC1,Y,F,5000 Commerce Way,Petersburg,Virginia,USA,23803-6917,"1,100,000",October,2012,37.194724,-77.493399,1,rooftop,5000,Commerce Way,Petersburg,VA,Dinwiddie County,23803,US
+"Amazon.com.dedc, Inc.",,N,F,,Clear Brook,Virginia,USA,22624,"1,000,000",,2018,39.271865,-78.099763,1,place,,,Clear Brook,VA,Frederick County,22624,US
+"Amazon.com.dedc, Inc.",BFI3,Y,F,2700 Center Drive,Dupont,Washington,USA,98327-9607,"1,000,000",February,2015,47.111583,-122.63888,1,rooftop,2700,Center Dr,Dupont,WA,Pierce County,98327,US
+"Amazon.com.dedc, Inc.","MKE1/MKE7",Y,F,3501 120th Ave,Kenosha,Wisconsin,USA,53144-7502,"1,000,000",June,2015,42.605819,-87.951559,1,range_interpolation,3501,120th Ave,Kenosha,WI,Kenosha County,53144,US
