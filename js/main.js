@@ -29,6 +29,9 @@ var svg = d3.select('body')
 	.attr('width', w)
 	.attr('height', h);
 
+var div = d3.select("body").append("div")
+	.attr("class", "tooltip")
+	.style("opacity", 0);
 
 // var zoom = d3.behavior.zoom()
 // 	.scaleExtent([1, 8])
@@ -87,7 +90,20 @@ d3.csv('amazon_geocodio.csv', function (data) {
 				)
 				.attr('fill', function (d, i) { return colors(d.Year); })
 				.style('stroke', 'grey')
-				.style('opacity', 0.75);
+				.style('opacity', 0.75)
+				.on("click", function (d) {
+					div.transition()
+						.duration(200)
+						.style("opacity", .9);
+					div.html(d.City + ", " + d.State + "<br/>" + d.Year)
+						.style("left", (d3.event.pageX) + "px")
+						.style("top", (d3.event.pageY - 28) + "px");
+				})
+				.on("mouseout", function (d) {
+					div.transition()
+						.duration(500)
+						.style("opacity", 0);
+				});
 		});
 	});
 });
