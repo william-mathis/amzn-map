@@ -3,6 +3,8 @@ var margin = { top: 20, right: 20, bottom: 30, left: 40 };
 var w = parseFloat($("#svg").attr("width")) - margin.left - margin.right,
 	h = parseFloat($("#svg").attr("height")) - margin.top - margin.bottom;
 
+
+
 //defines map projection
 var projection = d3.geo.albersUsa()
 	.translate([w / 2, h / 2])
@@ -11,6 +13,10 @@ var projection = d3.geo.albersUsa()
 //define path generator
 var path = d3.geo.path()
 	.projection(projection);
+
+var color = d3.scale.linear()
+	.domain([0, 21])
+	.range(["blue", "green"]);
 
 //define quantize scale to sort data values into buckets of colors
 
@@ -23,6 +29,20 @@ var svg = d3.select('body')
 	.attr('width', w)
 	.attr('height', h);
 
+
+// var zoom = d3.behavior.zoom()
+// 	.scaleExtent([1, 8])
+// 	.on("zoom", zoomed);
+
+// svg.append("rect")
+// 	.attr("class", "overlay")
+// 	.attr("width", w)
+// 	.attr("height", h)
+// 	.attr;
+// .call(zoom);
+//
+// svg.call(zoom)
+// 	.call(zoom.event);
 //load data
 d3.csv('amazon_geocodio.csv', function (data) {
 
@@ -65,9 +85,17 @@ d3.csv('amazon_geocodio.csv', function (data) {
 				.attr('r', '3' //function (d) {
 					//return Math.sqrt(parseInt(d.SqFt) * 0.05);
 				)
-				.style('fill', 'white')
+				.attr('fill', 'white')
+				//function (d, i) { return color(d.Year[i]); }
 				.style('stroke', 'grey')
 				.style('opacity', 0.75);
 		});
 	});
-})
+});
+
+// function zoomed() {
+// 	g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+// };
+//
+//
+// d3.select(self.frameElement).style("height", height + "px");
