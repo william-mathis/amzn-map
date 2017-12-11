@@ -14,8 +14,8 @@ var projection = d3.geo.albersUsa()
 var path = d3.geo.path()
 	.projection(projection);
 
-var color = d3.scale.linear()
-	.domain([0, 21])
+var colors = d3.scale.linear()
+	.domain([2007, 2018])
 	.range(["blue", "green"]);
 
 //define quantize scale to sort data values into buckets of colors
@@ -85,8 +85,7 @@ d3.csv('amazon_geocodio.csv', function (data) {
 				.attr('r', '3' //function (d) {
 					//return Math.sqrt(parseInt(d.SqFt) * 0.05);
 				)
-				.attr('fill', 'white')
-				//function (d, i) { return color(d.Year[i]); }
+				.attr('fill', function (d, i) { return colors(d.Year); })
 				.style('stroke', 'grey')
 				.style('opacity', 0.75);
 		});
