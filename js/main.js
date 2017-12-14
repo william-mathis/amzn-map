@@ -8,15 +8,16 @@ var w = parseFloat($("#svg").attr("width")) - margin.left - margin.right,
 //defines map projection
 var projection = d3.geo.albersUsa()
 	.translate([w / 2, h / 2])
-	.scale([500]);
+	.scale([750]);
 
 //define path generator
 var path = d3.geo.path()
 	.projection(projection);
 
-var colors = d3.scale.linear()
-	.domain([2007, 2018])
-	.range(["blue", "green"]);
+// var colors = d3.scale.linear()
+// 	.domain([2007, 2018])
+// 	.range(["#1a9850", "#66bd63", "#a6d96a","#d9ef8b","#ffffbf","#fee08b","#fdae61","#f46d43","#d73027"]);
+
 
 //define quantize scale to sort data values into buckets of colors
 
@@ -47,8 +48,10 @@ var div = d3.select("body").append("div")
 // svg.call(zoom)
 // 	.call(zoom.event);
 //load data
-d3.csv('amazon_geocodio.csv', function (data) {
-
+d3.csv('amazon_fulfil_geocodio.csv', function (data) {
+	var colors = d3.scale.ordinal()
+		.domain(16)
+		.range(["#1a9850", "#66bd63", "#a6d96a", "#d9ef8b", "#ffffbf", "#fee08b", "#fdae61", "#f46d43", "#d73027"]);
 	//getting the state shapes
 	d3.json('us-states.json', function (json) {
 		for (var i = 0; i < data.length; i++) {
@@ -74,7 +77,10 @@ d3.csv('amazon_geocodio.csv', function (data) {
 			.attr('d', path)
 			.style('fill', '#4582B4');
 
-		d3.csv('amazon_geocodio.csv', function (data) {
+		d3.csv('amazon_fulfil_geocodio.csv', function (data) {
+
+
+
 			svg.selectAll('circle')
 				.data(data)
 				.enter()
@@ -91,11 +97,11 @@ d3.csv('amazon_geocodio.csv', function (data) {
 				.attr('fill', function (d, i) { return colors(d.Year); })
 				.style('stroke', 'grey')
 				.style('opacity', 0.75)
-				.on("click", function (d) {
+				.on("mouseover", function (d) {
 					div.transition()
 						.duration(200)
 						.style("opacity", .9);
-					div.html(d.City + ", " + d.State + "<br/>" + d.Year)
+					div.html(d.City + "<br/>" + d.Year)
 						.style("left", (d3.event.pageX) + "px")
 						.style("top", (d3.event.pageY - 28) + "px");
 				})
@@ -105,6 +111,54 @@ d3.csv('amazon_geocodio.csv', function (data) {
 						.style("opacity", 0);
 				});
 		});
+
+		var years = ["1997", "1999", "2000", "2005", "2006", "2007", "2008", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"]
+
+		var legend = svg.selectAll("g.legend")
+			.data(years)
+			.enter().append("g")
+			.attr("class", "legend");
+
+		var ls_w = 20,
+			ls_h = 20;
+
+		var legend_labels = d3.set(data.map(function (d) { return parseInt(d.Year) })).values().sort();
+
+
+
+
+
+
+		// var years = d3.scale.ordinal(legend_labels);
+
+		legend.append("rect")
+			.attr("x", function (d, i) { return w - (i * ls_w) - 2 * ls_w; })
+			.attr('y', (h - 20))
+			// .attr("y", function (d, i) { return h - (i * ls_h) - 2 * ls_h; })
+			.attr("width", ls_w)
+			.attr("height", ls_h)
+			.style("fill", function (d, i) { return colors(years[i]); })
+			.style("opacity", 0.8);
+		//
+
+		legend.append('text')
+			// .call(legend_labels)
+			.attr('x', function (d, i) { return w - (i * ls_w) - 2 * ls_w * 2; })
+			.attr('y', (h - 20))
+			.text(function (d, i) {
+				return legend_labels[i];
+			});
+		// legend.append("text")
+		// 	.attr("x", function (d, i) { return w - (i * ls_w) - 2 * ls_w * 2; })
+		// 	.attr('y', (h - 20))
+		// 	// .attr("width", ls_w)
+		// 	// .call(years)
+		// 	// .attr('transform', 'rotate(-90)')
+		// 	// .attr("x", 50)
+		// 	//
+		// 	// .attr("y", function (d, i) { return h - (i * ls_h) - ls_h - 4; })
+		// 	.text(function (d, i) { return legend_labels[i]; });
+
 	});
 });
 
