@@ -51,7 +51,7 @@ var div = d3.select("body").append("div")
 d3.csv('amazon_fulfil_geocodio.csv', function (data) {
 	var colors = d3.scale.ordinal()
 		.domain(16)
-		.range(["#1a9850", "#66bd63", "#a6d96a", "#d9ef8b", "#ffffbf", "#fee08b", "#fdae61", "#f46d43", "#d73027"]);
+		.range(["#FF530E", "#E82C0B", "#FF0000", "#E80C7A", "#FE0CFF", "#6E12FF", "#2010E8", "#1351FF", "#0D8AE8", "#1AE3FF", "#0AFFB9", "#09E85F", "#18FC23", "#5AE812", "#C7FF20", "#FEFFFC"]);
 	//getting the state shapes
 	d3.json('us-states.json', function (json) {
 		for (var i = 0; i < data.length; i++) {
@@ -112,7 +112,9 @@ d3.csv('amazon_fulfil_geocodio.csv', function (data) {
 				});
 		});
 
-		var years = ["1997", "1999", "2000", "2005", "2006", "2007", "2008", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"]
+		var years = ["2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2008", "2007", "2006", "2005", "2000", "1999", "1997"]
+
+		var years2 = ["1997", "1999", "2000", "2005", "2006", "2007", "2008", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018"]
 
 		var legend = svg.selectAll("g.legend")
 			.data(years)
@@ -123,11 +125,6 @@ d3.csv('amazon_fulfil_geocodio.csv', function (data) {
 			ls_h = 20;
 
 		var legend_labels = d3.set(data.map(function (d) { return parseInt(d.Year) })).values().sort();
-
-
-
-
-
 
 		// var years = d3.scale.ordinal(legend_labels);
 
@@ -140,14 +137,31 @@ d3.csv('amazon_fulfil_geocodio.csv', function (data) {
 			.style("fill", function (d, i) { return colors(years[i]); })
 			.style("opacity", 0.8);
 		//
-
+		var xSpot = function (d, i) { return w - (i * ls_w) - 2 * ls_w * 1; };
 		legend.append('text')
 			// .call(legend_labels)
-			.attr('x', function (d, i) { return w - (i * ls_w) - 2 * ls_w * 2; })
-			.attr('y', (h - 20))
+
+			.attr('x', xSpot)
+			.attr('y', (h - 8))
+			.style('font-size', '.75em')
+			// .text("1997")
+			// .attr("class", "leg_text")
+			// .attr("transform", "rotate(90)")
 			.text(function (d, i) {
-				return legend_labels[i];
-			});
+				return years[i];
+			})
+
+		// .selectAll("text")
+		// // .attr("y", 0)
+		// // .attr("x", 9)
+		// // .attr("dy", ".35em")
+		// .style("text-anchor", "end")
+		// .attr("dx", "-.8em")
+		// .attr("dy", ".15em")
+
+		// .attr("dy", ".35em")
+		;
+		// .style("text-anchor", "start");
 		// legend.append("text")
 		// 	.attr("x", function (d, i) { return w - (i * ls_w) - 2 * ls_w * 2; })
 		// 	.attr('y', (h - 20))
